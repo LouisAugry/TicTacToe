@@ -22,7 +22,7 @@ function win(){
       empty3==empty6 && empty6==empty9 && empty9==0 ||
       empty1==empty5 && empty5==empty9 && empty9==0 ||
       empty3==empty5 && empty5==empty7 && empty7==0 ) {
-    alert ("Joueur 1: VOUS GAGNEZ !!!");          
+    alert ("Le Joueur 2 GAGNE !");          
     history.go(0);
   }
   if (empty1==empty2 && empty2==empty3 && empty3==1 ||
@@ -33,7 +33,7 @@ function win(){
       empty3==empty6 && empty6==empty9 && empty9==1 ||
       empty1==empty5 && empty5==empty9 && empty9==1 ||
       empty3==empty5 && empty5==empty7 && empty7==1 ) {
-    alert ("Joueur 2: VOUS GAGNEZ !!!");
+    alert ("Le Joueur 1 GAGNE !");
     history.go(0);
   }
 }
